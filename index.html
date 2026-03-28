@@ -12,7 +12,7 @@
     --navy-light: #243660;
     --navy-dark: #111C33;
     --amber: #C8883A;
-    --amber-light: #DFA05A;
+    --amber-light: #DFA05A;h
     --amber-pale: #F5EEE3;
     --off-white: #F5F1EB;
     --slate: #4A5568;
@@ -1300,5 +1300,13 @@
   </ul>
   <div class="footer-copy">© 2026 Emerge Team Development. Franklin, TN.</div>
 </footer>
-
+<script>
+    function handleSubmit() {
+          setTimeout(function() {
+                  document.getElementById('contactForm').style.display = 'none';
+                  document.getElementById('formSuccess').style.display = 'block';
+          }, 1000);
+    }
+</script>
+  
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></sc
